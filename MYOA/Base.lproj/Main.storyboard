@@ -212,11 +212,17 @@ Really, you chose the burger? Huh, I thought you were more of a foodie. Anyway l
                                 <rect key="frame" x="16" y="317" width="343" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="eat the burger."/>
+                                <connections>
+                                    <segue destination="qxV-pS-vaL" kind="show" id="mo9-p1-ap9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTU-Jx-2ab">
                                 <rect key="frame" x="16" y="390" width="343" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="freak out."/>
+                                <connections>
+                                    <segue destination="qxV-pS-vaL" kind="show" id="OeB-Xe-JYN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -253,7 +259,7 @@ Really, you chose the burger? Huh, I thought you were more of a foodie. Anyway l
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">
 
-Awesome! You totally picked the right choice with the salad. So have you ever eaten an octopus salad?</string>
+Awesome! It's nice to see you didn't go for the burger. I mean it's a burger and you've probably had more than enough of that old hat. So have you ever eaten an octopus salad?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -261,11 +267,17 @@ Awesome! You totally picked the right choice with the salad. So have you ever ea
                                 <rect key="frame" x="16" y="317" width="343" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Yes"/>
+                                <connections>
+                                    <segue destination="t85-vp-7ZQ" kind="show" id="tEc-uN-wOE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4WX-bx-1YM">
                                 <rect key="frame" x="16" y="390" width="343" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="No"/>
+                                <connections>
+                                    <segue destination="t85-vp-7ZQ" kind="show" id="3M2-tc-0nw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -309,11 +321,17 @@ Fantastic, let's start! So do you prefer tabletop games or video games?</string>
                                 <rect key="frame" x="16" y="317" width="343" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Video games"/>
+                                <connections>
+                                    <segue destination="OSt-oJ-o9T" kind="show" id="9Bw-9w-Yh2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMI-bl-7ZV">
                                 <rect key="frame" x="16" y="390" width="343" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Do I have to choose?"/>
+                                <connections>
+                                    <segue destination="OSt-oJ-o9T" kind="show" id="iDA-il-5Nn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -335,7 +353,7 @@ Fantastic, let's start! So do you prefer tabletop games or video games?</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kv9-TE-mjC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2278" y="635"/>
+            <point key="canvasLocation" x="2198" y="635"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Fa8-Zl-lhf">
@@ -357,11 +375,17 @@ I hate to break it to you but you're still playing a game. Are you sure you want
                                 <rect key="frame" x="16" y="317" width="343" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="No"/>
+                                <connections>
+                                    <segue destination="EqS-RS-w0Y" kind="show" id="8U4-z9-UVM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZ5-Cr-NW4">
                                 <rect key="frame" x="16" y="390" width="343" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Yes"/>
+                                <connections>
+                                    <segue destination="EqS-RS-w0Y" kind="show" id="NV3-bS-04M"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -385,5 +409,142 @@ I hate to break it to you but you're still playing a game. Are you sure you want
             </objects>
             <point key="canvasLocation" x="2278" y="1405"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="0rf-bK-pPU">
+            <objects>
+                <viewController id="qxV-pS-vaL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tik-N9-c8z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="l7n-kA-i9D">
+                                <rect key="frame" x="16" y="64" width="343" height="227"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">
+Eat the burger, freak out, it just doesn't matter. I mean it's a burger which is fine, I suppose but maybe next time be a little more adventurous with your food choices or don't it's always up to you. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iKR-RY-ZKZ" firstAttribute="bottom" secondItem="l7n-kA-i9D" secondAttribute="bottom" constant="376" id="H66-aj-zak"/>
+                            <constraint firstItem="l7n-kA-i9D" firstAttribute="top" secondItem="iKR-RY-ZKZ" secondAttribute="top" id="L0U-Jv-8NS"/>
+                            <constraint firstItem="l7n-kA-i9D" firstAttribute="trailing" secondItem="tik-N9-c8z" secondAttribute="trailingMargin" id="itq-T6-NSs"/>
+                            <constraint firstItem="l7n-kA-i9D" firstAttribute="leading" secondItem="tik-N9-c8z" secondAttribute="leadingMargin" id="leT-If-4HA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iKR-RY-ZKZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sDO-NI-hox"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gyc-CO-tWE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2988" y="-798"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ptc-dZ-br3">
+            <objects>
+                <viewController id="t85-vp-7ZQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nob-R8-g19">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4GL-aY-pFr">
+                                <rect key="frame" x="16" y="64" width="343" height="227"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Whether you've eaten or not eaten octopus salad doesn't matter. At least you didn't eat the burger. Something tells me that would have been a poor choice.
+
+So congratulations on being an adventurous eater!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4GL-aY-pFr" firstAttribute="leading" secondItem="Nob-R8-g19" secondAttribute="leadingMargin" id="F7j-FT-BSK"/>
+                            <constraint firstItem="d83-rR-aU0" firstAttribute="bottom" secondItem="4GL-aY-pFr" secondAttribute="bottom" constant="376" id="crF-MM-6UE"/>
+                            <constraint firstItem="4GL-aY-pFr" firstAttribute="top" secondItem="d83-rR-aU0" secondAttribute="top" id="erD-Dz-3md"/>
+                            <constraint firstItem="4GL-aY-pFr" firstAttribute="trailing" secondItem="Nob-R8-g19" secondAttribute="trailingMargin" id="kDB-Gk-Lzf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="d83-rR-aU0"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="G4M-k9-HYz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WL8-Xw-ZoB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2988" y="-85"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9ya-D6-Cm6">
+            <objects>
+                <viewController id="OSt-oJ-o9T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kCB-uL-oFF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="c77-Yx-lNg">
+                                <rect key="frame" x="16" y="64" width="343" height="227"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">At this point you may feel like you've been cheated. And you would be absolutely correct. 
+Why don't you start over and see where the other choices take you.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="c77-Yx-lNg" firstAttribute="trailing" secondItem="kCB-uL-oFF" secondAttribute="trailingMargin" id="O1w-qU-Rfp"/>
+                            <constraint firstItem="zfj-K6-xq3" firstAttribute="bottom" secondItem="c77-Yx-lNg" secondAttribute="bottom" constant="376" id="U43-PF-3yf"/>
+                            <constraint firstItem="c77-Yx-lNg" firstAttribute="leading" secondItem="kCB-uL-oFF" secondAttribute="leadingMargin" id="kTz-nf-T2V"/>
+                            <constraint firstItem="c77-Yx-lNg" firstAttribute="top" secondItem="zfj-K6-xq3" secondAttribute="top" id="kY0-Ln-fek"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zfj-K6-xq3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lOd-ej-6K8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w6e-3y-5SS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2988" y="635"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2ma-uC-U8I">
+            <objects>
+                <viewController id="EqS-RS-w0Y" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="60Z-XM-PJk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lAl-IN-PTc">
+                                <rect key="frame" x="16" y="64" width="343" height="227"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">
+Well you won the game! It didn't matter what you chose.
+Now be a good sport and start over to see if there are any alternative endings.
+You might even win something. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lAl-IN-PTc" firstAttribute="top" secondItem="jr9-cU-plx" secondAttribute="top" id="3VP-C8-wAM"/>
+                            <constraint firstItem="jr9-cU-plx" firstAttribute="bottom" secondItem="lAl-IN-PTc" secondAttribute="bottom" constant="376" id="GJt-ao-qUA"/>
+                            <constraint firstItem="lAl-IN-PTc" firstAttribute="trailing" secondItem="60Z-XM-PJk" secondAttribute="trailingMargin" id="QR1-qb-S5d"/>
+                            <constraint firstItem="lAl-IN-PTc" firstAttribute="leading" secondItem="60Z-XM-PJk" secondAttribute="leadingMargin" id="ncL-Gs-YgK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jr9-cU-plx"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qwJ-6p-kNO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n0J-Wx-twn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3068" y="1405"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="NV3-bS-04M"/>
+        <segue reference="iDA-il-5Nn"/>
+        <segue reference="3M2-tc-0nw"/>
+        <segue reference="mo9-p1-ap9"/>
+    </inferredMetricsTieBreakers>
 </document>
