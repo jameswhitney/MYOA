@@ -12,6 +12,7 @@
 		1947DC572030B11E002AE597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1947DC552030B11E002AE597 /* Main.storyboard */; };
 		1947DC592030B11E002AE597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1947DC582030B11E002AE597 /* Assets.xcassets */; };
 		1947DC5C2030B11E002AE597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1947DC5A2030B11E002AE597 /* LaunchScreen.storyboard */; };
+		19D534B020311E8500C9C14F /* MYOAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D534AF20311E8500C9C14F /* MYOAViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1947DC582030B11E002AE597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1947DC5B2030B11E002AE597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1947DC5D2030B11E002AE597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D534AF20311E8500C9C14F /* MYOAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYOAViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1947DC512030B11E002AE597 /* AppDelegate.swift */,
 				1947DC532030B11E002AE597 /* ViewController.swift */,
+				19D534AF20311E8500C9C14F /* MYOAViewController.swift */,
 				1947DC552030B11E002AE597 /* Main.storyboard */,
 				1947DC582030B11E002AE597 /* Assets.xcassets */,
 				1947DC5A2030B11E002AE597 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D534B020311E8500C9C14F /* MYOAViewController.swift in Sources */,
 				1947DC542030B11E002AE597 /* ViewController.swift in Sources */,
 				1947DC522030B11E002AE597 /* AppDelegate.swift in Sources */,
 			);
