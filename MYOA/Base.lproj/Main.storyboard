@@ -85,7 +85,7 @@ Would you like to play a game?</string>
         <!--View Controller-->
         <scene sceneID="3ut-88-eUC">
             <objects>
-                <viewController id="EGw-3C-lbC" sceneMemberID="viewController">
+                <viewController id="EGw-3C-lbC" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jV4-bx-bmY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -141,7 +141,7 @@ If you had to choose between eating a burger or eating an octopus salad, which o
         <!--View Controller-->
         <scene sceneID="So6-kV-CX0">
             <objects>
-                <viewController id="SHJ-af-lhw" sceneMemberID="viewController">
+                <viewController id="SHJ-af-lhw" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zzm-dC-zbx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -195,7 +195,7 @@ So you don't want to play a game? You do know that your previous selection is pa
         <!--View Controller-->
         <scene sceneID="M7f-H9-ndQ">
             <objects>
-                <viewController id="9UN-oz-ood" sceneMemberID="viewController">
+                <viewController id="9UN-oz-ood" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hpL-vc-gDV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -249,7 +249,7 @@ Really, you chose the burger? Huh, I thought you were more of a foodie. Anyway l
         <!--View Controller-->
         <scene sceneID="aJp-PW-Xpi">
             <objects>
-                <viewController id="Nbh-4p-lGA" sceneMemberID="viewController">
+                <viewController id="Nbh-4p-lGA" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AxJ-6o-1bO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -304,7 +304,7 @@ Awesome! It's nice to see you didn't go for the burger. I mean it's a burger and
         <!--View Controller-->
         <scene sceneID="os3-LO-Luz">
             <objects>
-                <viewController id="6b0-aP-IXP" sceneMemberID="viewController">
+                <viewController id="6b0-aP-IXP" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nJN-52-P7l">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -358,7 +358,7 @@ Fantastic, let's start! So do you prefer tabletop games or video games?</string>
         <!--View Controller-->
         <scene sceneID="Fa8-Zl-lhf">
             <objects>
-                <viewController id="Izv-dP-S9R" sceneMemberID="viewController">
+                <viewController id="Izv-dP-S9R" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iu7-uv-VNt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -412,7 +412,7 @@ I hate to break it to you but you're still playing a game. Are you sure you want
         <!--View Controller-->
         <scene sceneID="0rf-bK-pPU">
             <objects>
-                <viewController id="qxV-pS-vaL" sceneMemberID="viewController">
+                <viewController id="qxV-pS-vaL" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tik-N9-c8z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -444,7 +444,7 @@ Eat the burger, freak out, it just doesn't matter. I mean it's a burger which is
         <!--View Controller-->
         <scene sceneID="ptc-dZ-br3">
             <objects>
-                <viewController id="t85-vp-7ZQ" sceneMemberID="viewController">
+                <viewController id="t85-vp-7ZQ" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nob-R8-g19">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -477,7 +477,7 @@ So congratulations on being an adventurous eater!</string>
         <!--View Controller-->
         <scene sceneID="9ya-D6-Cm6">
             <objects>
-                <viewController id="OSt-oJ-o9T" sceneMemberID="viewController">
+                <viewController id="OSt-oJ-o9T" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kCB-uL-oFF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -509,7 +509,7 @@ Why don't you start over and see where the other choices take you.</string>
         <!--View Controller-->
         <scene sceneID="2ma-uC-U8I">
             <objects>
-                <viewController id="EqS-RS-w0Y" sceneMemberID="viewController">
+                <viewController id="EqS-RS-w0Y" customClass="MYOAViewController" customModule="MYOA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="60Z-XM-PJk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
